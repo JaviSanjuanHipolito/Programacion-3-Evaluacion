@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        const pi = parseInt(prompt("pi"));
+        let radio = parseInt(prompt("radio"));
+        let ancho = parseInt(prompt("ancho"));
+        let altura = parseInt(prompt("altura"));
+
+        let areaSemicirculo = 0.5 * pi * (radio * radio);
+        let areaRectangulo = ancho * altura;
+        let areaTotal = areaSemicirculo + areaRectangulo;
+
+        window.alert("El área total de la figura es: " + areaTotal);
+    </script>
+</body>
+</html>
